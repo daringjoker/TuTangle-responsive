@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>TuTangle</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--heading bar-->
+    <div class="header">
+        <div class="hdr center-w clearfix">
+            <div class="hdr-l clearfix">
+                <div class="logo">
+                    <img src="images/logo.png" alt="TuTangle Logo"/>
+                </div>
+                <div class="search clearfix">
+                    <div class="search-l clearfix">
+                    <div class="searchbar clearfix">
+                        <form action="">
+                            <span class="searchbox clearfix">
+                                <input  type="text" placeholder="Search by Term, Member, or Entry Title"/>
+                                <button class="cross-btn"><img src="images/cross-btn-img.png"/></button>
+                            </span> 
+                        </form>
+                    </div>
+                    <button class="eyeglass"><img src="images/eyeglass.png"/></button>
+                </div>
+                    <span class="search-btn">
+                        <button>Search</button>
+                    </span>                     
+                </div>                
+            </div>
+            <div class="hdr-r clearfix">
+                <div class="username">
+                    Joe Burros
+                </div>
+                <ul class="profile-setting">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="center-w clearfix">
+            <div class="nav-l">
+                <button class="hamburger-big">
+                    <img src="images/bigham.png" alt="hamburger-icon">
+                </button>
+                <ul class="not-mobile navlist clearfix">
+                    <li><a href="#">Create New Entry</a></li>
+                    <li><a href="#">My Topic Boxes</a></li>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Invite New Member</a></li>
+                </ul>
+            </div>
+            <div class="nav-r">
+                <ul class="notifications">
+                    <li class="active-notification"><img src="images/box-invites.png" alt="invite-icon"><a href="#">Topic Boxes Invites - <span class="count">2</span></a></li>
+                    <li class="inactive-notification"><img src="images/friend-req.png" alt="friend-req-icon"><a href="#">Friend Requests - <span class="count">0</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- main body -->
+    <div class="body">
+        <div class="main center-w clearfix">
+            <div class="main-l not-mobile">
+                <h3>Recent Searches</h3>
+                <ul class="list-items first-list">
+                    <li class="clearfix">
+                        <a href="#">
+                            Nick Cave and the Bad Seeds
+                        </a>
+                        <button><img src="images/download.png" alt="download"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            African Animals
+                        </a>
+                        <button><img src="images/download.png" alt="download"></button>
+
+                    </li>
+                </ul>
+                <h3>Recent Searches</h3>
+                <ul class="list-items second-list">
+                    <li class="clearfix">
+                        <a href="#">
+                            Diffrent versions of the Tristan Und Isolde Prelude
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            Music
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            Guitar
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            Bob Cohen
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            Mark Schnack
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                    <li class="clearfix">
+                        <a href="#">
+                            Jefferson Dickey
+                        </a>
+                        <button><img src="images/hamburger.png" alt="hamburger"></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-r clearfix">
+            <div class="central">
+                <h1>
+                    Entries
+                </h1>
+                <div class="contentbox">
+                    <div class="content-hdr not-mobile clearfix">
+                        <div class="left-hdr">
+                            <div class="upper-hdr clearfix">
+                                <a href="#">All Entries</a>
+                            </div>
+                            <div class="lower-hdr clearfix">
+                                <div class="lower-lhdr">
+                                    <a class="tablink active-tab"  href="#"> <p class="tabtext">All Members</p> </a>
+                                </div>
+                                <div class="lower-rhdr">
+                                    <a class="tablink" href="#"><p class="tabtext">Friends</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-hdr">
+                            <div class="upper-hdr">
+                                <a href="#">Subscribed</a>
+                            </div>
+                            <div class="lower-hdr clearfix">
+                                <div class="lower-lhdr">
+                                    <a  class="tablink" href="#"><p class="tabtext">New Entries</p></a>
+                                </div>
+                                <div class="lower-rhdr">
+                                    <a class="tablink" href="#"><p class="tabtext">New Comments</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="small-hdr not big">
+                        <a class="tablink active-tab"  href="#"> <p class="tabtext">All Members</p> </a>
+                        <a class="tablink" href="#"><p class="tabtext">Friends</p></a>
+                        <a  class="tablink" href="#"><p class="tabtext">New Entries</p></a>
+                        <a class="tablink" href="#"><p class="tabtext">New Comments</p></a>
+                    </div>
+                    <div class="content">
+                        <div class="entry clearfix">
+                            <div class="image">
+                                <img src="images/user1.png" alt="user1">
+                            </div>
+                            <div class="textbox">
+                                <h3 class="post-title">Day for Night by Francois Truffaut, a ground breaking film</h3>
+                                <div class="post-info">
+                                    <span class="by">by <a href="#"class="bylink">Alan Coe</a></span>
+                                    <span class="date">February 10, 2012</span>
+                                    <a href="#" class="subscribed">Subscribed</a>
+                                </div>
+                                <div class="from">From Topic Box: <a href="#" class="fromlink">My Favourite Movies</a></div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="image">
+                                <img src="images/user2.png" alt="user1">
+                            </div>
+                            <div class="textbox">
+                                <h4 class="new">NEW ENTRY!</h4>
+                                <h3 class="post-title">Blade Runner, The Director's Cut</h3>
+                                <div class="post-info">
+                                    <span class="by">by <a href="#"class="bylink">Mary Pilot</a></span>
+                                    <span class="date">February 8, 2012</span>
+                                </div>
+                                <div class="from">From Topic Box: <a href="#" class="fromlink">Behind the Scene</a></div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="image">
+                                <img src="images/user3.png" alt="user1">
+                            </div>
+                            <div class="textbox">
+                                <h4 class="new">NEW COMMENT!</h4>
+                                <h3 class="post-title">Best French Resturant in Chicago?</h3>
+                                <div class="post-info">
+                                    <span class="by">by <a href="#"class="bylink">Jim Roy</a></span>
+                                    <span class="date">February 7, 2012</span>
+                                </div>
+                                <div class="from">From Topic Box: <a href="#" class="fromlink">Chicago Resturants Reviews</a></div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="image">
+                                <img src="images/user4.png" alt="user1">
+                            </div>
+                            <div class="textbox">
+                                <h3 class="post-title">The Meaning of Night, Dark Book but incredibly well written.</h3>
+                                <div class="post-info">
+                                    <span class="by">by <a href="#"class="bylink">Alan Coe</a></span>
+                                    <span class="date">February 7, 2012</span>
+                                    <a href="#" class="subscribed">Subscribed</a>
+                                </div>
+                                <div class="from">From Topic Box: <a href="#" class="fromlink">Books Read & Books to Read</a></div>
+                            </div>
+                        </div>
+                        <div class="entry clearfix">
+                            <div class="image">
+                                <img src="images/user5.png" alt="user1">
+                            </div>
+                            <div class="textbox">
+                                <h4 class="invite">TOPIC BOX INVITE!</h4>
+                                <h3 class="post-title">Pea Pesto</h3>
+                                <div class="post-info">
+                                    <span class="by">by <a href="#"class="bylink">Marianne Gig</a></span>
+                                    <span class="date">February 6, 2012</span>
+                                </div>
+                                <div class="from">From Topic Box: <a href="#" class="fromlink">Favourite Recipies</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="not-mobile right-sidebar">
+                <h3>Video Tutorials</h3>
+                <ul class="list-items right-list">
+                    <li><a href="#">Overview of Tutangle</a></li>
+                    <li><a href="#">Searching the Site</a></li>
+                    <li><a href="#">Previous & Saved Searches</a></li>
+                    <li><a href="#">The Topic Box Page</a></li>
+                    <li><a href="#">Creating a Topic Box</a></li>
+                    <li><a href="#">View Topic Box Entries</a></li>
+                    <li><a href="#">Creating an Entry</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Co-Authoring</a></li>
+                </ul>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-body center-w clearfix">
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Feedback</a></li>
+                </ul>
+
+            </div>
+            <div class="copyright">
+                &copy; TuTangle 2013
+            </div>
+        </div>
+    </div>
+</body>
+</html>

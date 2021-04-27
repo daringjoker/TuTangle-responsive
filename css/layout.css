@@ -1,0 +1,54 @@
+/* html{
+    min-width: 940px;
+}
+
+
+.center-w{
+    width:940px;
+    margin:0 auto;
+}
+
+
+.hdr-r{
+    float:right;
+}
+.nav-l{
+    float:left;
+}
+.nav-r{
+    float:right;
+}
+
+
+.main-l{
+    float:left;
+}
+.main-r{
+    float:right;
+}
+.right-sidebar{
+    float:right;
+}
+
+/* layout for headers in the central body */
+/* .hdr-l{
+    float:left;
+}
+.hdr-r{
+    float:right;
+} */
+/* .right-hdr{
+    float:right;
+}
+
+.left-hdr{
+    float:left;
+}
+
+.lower-lhdr{
+    float:left;
+}
+
+.lower-rhdr{
+    float:right;
+} */
